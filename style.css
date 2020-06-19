@@ -1,0 +1,347 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width : 1920px;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    border             : none;
+    outline            : none;
+    cursor             : pointer;
+    transition-duration: 0.4s;
+}
+
+
+
+.header_title_wrap {
+    display       : flex;
+    align-items   : center;
+    position      : relative;
+    font-weight   : normal;
+    font-size     : 1.5rem;
+    width         : 50%;
+    margin        : 3.5rem 0 0 50%;
+    text-transform: uppercase;
+}
+
+.header_title_wrap p {
+    color      : #2A263D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_title_wrap span {
+    color       : orange;
+    position    : relative;
+    margin-right: 1.5rem;
+    text-shadow : none;
+}
+
+.header_title_wrap span img {
+    position: absolute;
+    bottom  : -1rem;
+    right   : 1.7rem;
+    width   : 4.5rem;
+    z-index : -2;
+}
+
+.wrap_btn {
+    margin-left  : auto;
+    padding-right: 6rem;
+}
+
+.wrap_btn .btn {
+    height: 2.9rem;
+    width : 7rem;
+    border: 1px solid #B8121A;
+
+}
+
+.wrap_btn :nth-child(1) {
+    background: #B8121A;
+    color     : white;
+}
+
+.wrap_btn :nth-child(2) {
+    background: none;
+    color     : #B8121A;
+}
+
+.header_body {
+    position: relative;
+}
+
+.header_navbar {
+    display         : flex;
+    flex-direction  : column;
+    position        : relative;
+    background-image: url(picture/blue\ basement.png);
+    width           : 100%;
+    background-size : cover;
+    height          : 25rem;
+    align-items     : center;
+}
+
+.header_navbar .logo {
+    width     : 20vw;
+    position  : absolute;
+    top       : -25%;
+    left      : 1rem;
+    object-fit: contain;
+    opacity   : .5;
+}
+
+.header_navbar ul {
+    display       : flex;
+    margin-left   : auto;
+    /* width      : 100%; */
+    align-self    : flex-end;
+    margin        : 2.5rem 6rem 0 0;
+}
+
+.header_navbar ul li {
+    margin   : 0 1rem;
+    font-size: 1.5rem;
+}
+
+.header_navbar .wrap_star {
+    position    : absolute;
+    align-self  : flex-end;
+    bottom      : -5.8rem;
+    width       : 14rem;
+    height      : 14rem;
+    margin-right: 9%;
+
+}
+
+.wrap_star img {
+    width   : 100%;
+    position: absolute;
+    width   : 14rem;
+}
+
+.wrap_star span {
+    display          : block;
+    font-size        : 2.5rem;
+    font-family      : 'Plane Crash';
+    position         : relative;
+    top              : 45%;
+    left             : 20%;
+    z-index          : 22;
+    text-transform   : uppercase;
+    font-weight      : bold;
+    color            : white;
+    transform        : rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform   : rotate(-40deg);
+    -ms-transform    : rotate(-40deg);
+    -o-transform     : rotate(-40deg);
+}
+
+.header_context {
+    color      : white;
+    padding-top: 6rem;
+    text-align : center;
+}
+
+.header_context span {
+    font-size: 1.5rem;
+}
+
+.header_context h1,
+.header_footer_context h2,
+h2 {
+    color      : #FFBC6B;
+    font-family: 'Playfair Display', serif;
+    font-size  : 3rem;
+    line-height: 4rem;
+}
+
+.header_context .btn,
+.header_footer_context .btn {
+    background: none;
+    width     : 11rem;
+    height    : 3rem;
+    color     : white;
+    margin-top: 2.5rem;
+    border    : 1px solid #fff;
+    font-size : 1.2rem;
+}
+
+.header_main {
+    min-height         : 910px;
+    width              : 100%;
+    background-image   : url(picture/Map.png);
+    background-size    : cover;
+    background-position: center;
+}
+
+.header_footer {
+    background     : rgb(16, 16, 17);
+    background     : linear-gradient(180deg, rgba(16, 16, 17, 1) 0%, rgba(249, 250, 255, 0) 100%);
+    width          : 100%;
+    background-size: cover;
+    height         : 27.5rem;
+    position       : relative;
+    bottom         : -30%;
+}
+
+.header_footer .bg {
+    position: absolute;
+    top     : -27%;
+    z-index : 2;
+}
+
+.header_footer .header_footer_context {
+    width     : 100%;
+    height    : 100%;
+    position  : relative;
+    text-align: center;
+    z-index   : 22;
+}
+
+.header_footer_context span {
+    position: relative;
+    color   : white;
+}
+
+.header_footer_context span img {
+    position: absolute;
+    right   : -1rem;
+    bottom  : 0;
+}
+
+main h2 {
+    color      : #464069;
+    position   : relative;
+    text-align : center;
+    top        : -6.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    width      : max-content;
+    margin     : 0 auto;
+}
+
+main h2 span {
+    display  : inline-block;
+    position : absolute;
+    opacity  : .7;
+    font-size: 1.5rem;
+    right    : 0;
+    bottom   : -2.5rem;
+
+}
+
+.main_section {
+    width  : 100%;
+    display: flex;
+}
+
+.wrap_pic,
+.context {
+    width: 50%;
+}
+
+.section_1 .wrap_pic {
+    min-height     : 50vw;
+    display        : flex;
+    position       : relative;
+    justify-content: center;
+    align-items    : center;
+
+}
+
+.wrap_pic .logo {
+    position: absolute;
+    right   : 2rem;
+    top     : 2rem;
+}
+
+.wrap_circle {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    position       : absolute;
+    overflow       : hidden;
+    border-radius  : 50%;
+    width          : 95%;
+    height         : 95%;
+}
+
+.moto-img-circle {
+    position      : absolute;
+    top           : -25%;
+    object-fit    : cover;
+    width         : 150%;
+    height        : 150%;
+    filter        : blur(.2rem);
+    -webkit-filter: blur(.2rem);
+}
+
+.wrap_circle .elips {
+    position             : absolute;
+    z-index              : 7;
+    width                : 80%;
+    height               : 80%;
+    border-radius        : 50%;
+    border               : 1.7rem solid #FFBC6B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+}
+
+.polygon3 {
+    position         : relative;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path        : polygon(50% 0%, 61% 35%, 100% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 0% 35%, 39% 35%);
+    background-size  : cover;
+    height           : 110%;
+    width            : 110%;
+    background-color : #FFBC6B;
+    display          : flex;
+    z-index          : 22;
+    align-items      : center;
+}
+
+.polygon3 .moto-img-star {
+    position : relative;
+    clip-path: polygon(50% 0%, 61% 35%, 100% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 0% 35%, 39% 35%);
+    height   : 95%;
+    width    : 95%;
+    margin   : 0 auto;
+}
+
+
+.btn:hover {
+    box-shadow       : 0 5px 5px gray;
+    transform        : translate(0, -2px);
+    -webkit-transform: translate(0, -2px);
+    -moz-transform   : translate(0, -2px);
+    -ms-transform    : translate(0, -2px);
+    -o-transform     : translate(0, -2px);
+}
+
+li :hover {
+    text-shadow      : 0 5px 5px gray;
+    transform        : translate(0, -2px);
+    -webkit-transform: translate(0, -2px);
+    -moz-transform   : translate(0, -2px);
+    -ms-transform    : translate(0, -2px);
+    -o-transform     : translate(0, -2px);
+}

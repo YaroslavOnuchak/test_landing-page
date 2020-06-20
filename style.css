@@ -11,6 +11,7 @@ body {
     max-width: 1920px;
     overflow-x: hidden;
 
+
 }
 
 a {
@@ -42,6 +43,7 @@ h4 {
 header {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .header_title_wrap {
@@ -245,6 +247,10 @@ h2 {
     position: absolute;
     right: -1rem;
     bottom: 0;
+}
+
+main {
+    width: 100%;
 }
 
 main h2 {
@@ -459,7 +465,6 @@ main h2 span {
 
 .section_2 .bg {
     position: absolute;
-    width: 100%;
     max-height: 100%;
     top: -1rem;
     left: 0;

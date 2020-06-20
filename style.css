@@ -253,8 +253,110 @@ main h2 span {
 }
 
 .wrap_pic,
-.context {
+.content {
     width: 50%;
+}
+
+.section_1 .dot {
+    color: red;
+}
+
+.squer {
+    position: absolute;
+    top     : -2.7rem;
+    left    : -3.3rem;
+    width   : 6rem;
+    height  : 6rem;
+    border  : 1px solid #B8121A;
+}
+
+.sec_featured_client {
+    padding-left: 10%;
+}
+
+.sec_featured_client h4:nth-child(1) {
+    font-size    : 1.5rem;
+    font-weight  : 500;
+    color        : #464069;
+    margin-bottom: 4.5rem;
+}
+
+.sec_featured_client h4,
+h4+h4 {
+    position      : relative;
+    line-height   : 2rem;
+    text-transform: uppercase;
+
+}
+
+.sec_featured_client h4+h4 {
+    font-family  : 'Playfair Display';
+    font-weight  : bold;
+    font-size    : 1.3rem;
+    color        : #B8121A;
+    margin-bottom: 2rem;
+}
+
+.wrap_featured_client {
+    display        : flex;
+    justify-content: space-between;
+    flex-wrap      : wrap;
+    font-weight    : normal;
+    font-size      : 1.1rem;
+    line-height    : 1.5rem;
+    color          : #464069;
+}
+
+.wrap_featured_client span {
+    width : 50%;
+    margin: 0 0 .9rem;
+}
+
+.section_1_logo {
+    display    : flex;
+    align-items: flex-start;
+    margin     : 3.5rem;
+}
+
+.section_1_logo img {
+    width: 80%;
+}
+
+.section_1_logo .btn {
+    width         : 20%;
+    height        : 4rem;
+    border        : 2px solid #B8121A;
+    text-transform: uppercase;
+    background    : none;
+    font-family   : 'Playfair Display';
+    font-weight   : bold;
+    font-size     : 1.3rem;
+    color         : #B8121A;
+    position      : relative;
+}
+
+.section_1_logo .btn span:nth-child(1) {
+    background-color: white;
+    position        : relative;
+    left            : -20%;
+}
+
+.section_1_logo span+span {
+    position : absolute;
+    left     : 0%;
+    bottom   : -10%;
+    font-size: 2rem;
+}
+
+
+.section_1_echivement {
+    padding-left: 10%;
+    display     : flex;
+}
+
+.section_1_echivement img {
+    padding-left: 10%;
+    width       : 30%;
 }
 
 .section_1 .wrap_pic {
@@ -325,6 +427,13 @@ main h2 span {
     height   : 95%;
     width    : 95%;
     margin   : 0 auto;
+}
+
+.section_2 {
+    background       : url(picture/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size  : contain;
+    min-height       : 100vh;
 }
 
 
